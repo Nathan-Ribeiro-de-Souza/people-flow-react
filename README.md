@@ -1,16 +1,73 @@
-# React + Vite
+# PeopleFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React user management application featuring CRUD operations, user status control, sorting, dark mode, form validation, and localStorage persistence.
 
-Currently, two official plugins are available:
+## View Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 [Live Demo](https://people-flow-react.vercel.app)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Create users
+* Edit users
+* Delete users
+* Activate and deactivate users
+* Sort users by name
+* Sort users by age
+* Form validation
+* Dark mode
+* Data persistence with localStorage
+* Responsive design
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript
+* React Router DOM
+* CSS
+* useState
+* useEffect
+* localStorage
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Nathan-Ribeiro-de-Souza/people-flow-react.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd people-flow-react
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Project Structure
+
+```text
+src/
+├── components/
+│   ├── About.jsx
+│   ├── Home.jsx
+│   ├── Navbar.jsx
+│   └── Users.jsx
+├── App.jsx
+└── index.css
+```
+
+## Author
+
+Nathan Ribeiro de Souza
